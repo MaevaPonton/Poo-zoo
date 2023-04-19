@@ -1,0 +1,183 @@
+
+h1 {
+    font-size: 5rem;
+    color: black;
+    padding-top: 2%;
+    justify-content: center;
+    text-align: center;
+
+}
+
+h2 {
+    justify-content: center;
+    text-align: center;
+}
+
+
+h3 {
+    justify-content: center;
+    text-align: center;
+}
+
+
+.card-body2 {
+    background-color: transparent;
+}
+
+/* .img {
+    margin-left: 2%;
+    margin-top: 3%;
+} */
+
+.row {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.card-title {
+    padding-top: 2%;
+}
+
+.button {
+    margin-bottom: 2%;
+    background-color: #8AC44F;
+    color: black;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none; 
+}
+
+.button:hover {
+    background: #F0A968;
+    color: black;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+        
+}
+
+.button2 {
+    margin-bottom: 2%;
+    background-color: rgb(217, 81, 81);
+    color: black;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none; 
+}
+
+.button2:hover {
+    background: #F0A968;
+    color: black;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+        
+}
+
+.ZooExist {
+    text-align: center;
+    justify-content: center;
+    color: red;
+    padding-bottom: 5%;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #8AC44F;
+    color: black;
+}
+
+.container {
+    background-color: #8AC44F;
+    border-radius: 3%;
+    
+}
+
+.input-button {
+    background-color: #F0A968;
+    color: black;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none; 
+    font-size: 1.2rem;
+}
+        
+.input-button:hover {
+    background: #8AC44F;
+    color: black;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+        
+}
+
+form {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.présentation {
+    font-size: 4vw; 
+    justify-content: center;
+    margin-top: 1%;
+    background-color: #8AC44F;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px #F0A968;
+    overflow: hidden;
+    color: #493726;
+    max-width: 100%;
+}
+
+.présentation > :first-child {
+    display: inline-block;                
+    padding-right: 2em;                   
+    padding-left: 100%;                   
+    white-space: nowrap;                  
+    animation: defilement-rtl 15s infinite linear;
+}
+
+
+
+@keyframes defilement-rtl {
+    0% {
+      transform: translate3d(0,0,0);      
+    }
+    100% {
+      transform: translate3d(-100%,0,0);  
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+       
+ img.img {
+
+ }  
+      
+}
+        
+@media only screen and (max-width: 600px) {
+    img.img {
+    
+    }   
+}
+        
+@media only screen and (max-width: 400px) {
+      
+    img.img {
+    height: 90vw;
+    width: 90vw;
+    }   
+
+}
+
